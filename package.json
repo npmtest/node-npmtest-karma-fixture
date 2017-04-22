@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "test coverage for [karma-fixture (v0.2.6)](https://github.com/billtrik/karma-fixture) [![npm package](https://img.shields.io/npm/v/npmtest-karma-fixture.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-karma-fixture) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-karma-fixture.svg)](https://travis-ci.org/npmtest/node-npmtest-karma-fixture)",
+    "description": "#### basic test coverage for  [karma-fixture (v0.2.6)](https://github.com/billtrik/karma-fixture)  [![npm package](https://img.shields.io/npm/v/npmtest-karma-fixture.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-karma-fixture) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-karma-fixture.svg)](https://travis-ci.org/npmtest/node-npmtest-karma-fixture)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "karma-fixture": "*",
@@ -36,5 +36,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "2017.4.23"
 }
